@@ -1,10 +1,11 @@
 import "./styles.css";
-
-export default function App() {
+import Parent from "./Parent.js";
+function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      Hello World
+      <Parent />
     </div>
   );
 }
+export default App;
