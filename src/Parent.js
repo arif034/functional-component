@@ -1,11 +1,8 @@
 import { useState } from "react";
+import Child from "./Child.js";
 function Parent() {
-  const [state, setState] = useState(0);
-  return (
-    <div>
-      <button onClick={() => setState(state + 1)}>Clicked {state} times</button>
-    </div>
-  );
+  const [name, setName] = useState(0);
+  return <Child name={name} setName={setName} />;
 }
 
 export default Parent;
