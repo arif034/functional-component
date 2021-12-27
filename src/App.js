@@ -1,9 +1,9 @@
 import "./styles.css";
-import UseStateWithList from "./UseStateWithList.js";
+import UseEffectExample from "./UseEffectExample.js";
 function App() {
   return (
     <div className="App">
-      <UseStateWithList />
+      <UseEffectExample />
     </div>
   );
 }
