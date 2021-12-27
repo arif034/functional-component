@@ -1,13 +1,11 @@
-function Child() {
-  const [name] = this.props;
+function Child(props) {
+  const { name, setName } = props;
   return (
     <div>
-      <input
-        type="text"
-        value={this.props.name}
-        onChange={() => props.setName()}
-      />
-      <button>Hello {this.props.name}</button>
+      <input type="text" value={name} onChange={setName} />
+      <br />
+      <br />
+      Hello {name}
     </div>
   );
 }
