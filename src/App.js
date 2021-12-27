@@ -1,9 +1,9 @@
 import "./styles.css";
-import Parent from "./Parent.js";
+import UseStateWithList from "./UseStateWithList.js";
 function App() {
   return (
     <div className="App">
-      <Parent />
+      <UseStateWithList />
     </div>
   );
 }
