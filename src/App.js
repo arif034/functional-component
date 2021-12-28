@@ -1,9 +1,9 @@
 import "./styles.css";
-import UseCallBackExample from "./UseCallBackExample.js";
+import UseStateComponent from "./UseStateComponent.js";
 function App() {
   return (
     <div className="App">
-      <UseCallBackExample />
+      <UseStateComponent />
     </div>
   );
 }
