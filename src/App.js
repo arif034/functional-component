@@ -1,9 +1,9 @@
 import "./styles.css";
-import UseReducerFunction from "./UseReducerFunction.js";
+import UseCallBackExample from "./UseCallBackExample.js";
 function App() {
   return (
     <div className="App">
-      <UseReducerFunction />
+      <UseCallBackExample />
     </div>
   );
 }
