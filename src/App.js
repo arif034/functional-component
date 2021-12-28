@@ -1,9 +1,9 @@
 import "./styles.css";
-import UseCallbackComponent from "./UseCallbackComponent.js";
+import UseMemoComponent from "./UseMemoComponent.js";
 function App() {
   return (
     <div className="App">
-      <UseCallbackComponent />
+      <UseMemoComponent />
     </div>
   );
 }
