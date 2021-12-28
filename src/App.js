@@ -1,9 +1,9 @@
 import "./styles.css";
-import UseMemoComponent from "./UseMemoComponent.js";
+import UseRed from "./UseRed.js";
 function App() {
   return (
     <div className="App">
-      <UseMemoComponent />
+      <UseRed />
     </div>
   );
 }
