@@ -1,9 +1,9 @@
 import "./styles.css";
-import UseEffectComponent from "./UseEffectComponent.js";
+import UseReducerComponent from "./UseReducerComponent.js";
 function App() {
   return (
     <div className="App">
-      <UseEffectComponent />
+      <UseReducerComponent />
     </div>
   );
 }
