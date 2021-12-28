@@ -1,9 +1,9 @@
 import "./styles.css";
-import UseStateComponent from "./UseStateComponent.js";
+import UseEffectComponent from "./UseEffectComponent.js";
 function App() {
   return (
     <div className="App">
-      <UseStateComponent />
+      <UseEffectComponent />
     </div>
   );
 }
