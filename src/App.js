@@ -1,9 +1,9 @@
 import "./styles.css";
-import UseReducerComponent from "./UseReducerComponent.js";
+import UseCallbackComponent from "./UseCallbackComponent.js";
 function App() {
   return (
     <div className="App">
-      <UseReducerComponent />
+      <UseCallbackComponent />
     </div>
   );
 }
